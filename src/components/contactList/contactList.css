@@ -1,0 +1,23 @@
+.delete-button {
+  margin-left: 20px;
+  background-color: slateblue;
+  color: white;
+  border-radius: 50px;
+  padding-left: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 10px;
+  border: none;
+}
+.delete-button:hover {
+  background-color: rgb(210, 30, 30);
+}
+
+.contact-list-container {
+  display: flex;
+  width: 500px;
+  margin-bottom: 5px;
+}
+.contact-list {
+  width: 200px;
+}
