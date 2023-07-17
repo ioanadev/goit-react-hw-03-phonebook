@@ -15,9 +15,9 @@
 
 .contact-list-container {
   display: flex;
-  width: 500px;
+  width: 310px;
   margin-bottom: 5px;
 }
 .contact-list {
-  width: 200px;
+  width: 400px;
 }

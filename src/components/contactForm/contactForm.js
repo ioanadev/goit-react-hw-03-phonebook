@@ -29,8 +29,7 @@ export class ContactForm extends Component {
       alert('A contact with the same name already exists!');
     } else {
       const id = nanoid();
-      //const newContact = { id, name, number };
-      this.props.addContact(id, name, number);
+      this.props.addContact(name, number, id);
       this.setState({ name: '', number: '' });
     }
   };
